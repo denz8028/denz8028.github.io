@@ -14,3 +14,5 @@ Telegram: t.me/den4iklovelinux\
 ТТ: https://www.tiktok.com/@denzel8028\
 Steam: steamcommunity.com/id/denz8028\
 OpenVK: https://openvk.su/id10738\
+
+# Powered by GitHub superpowers!

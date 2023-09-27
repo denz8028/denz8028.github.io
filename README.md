@@ -6,7 +6,7 @@
  Любимые ОС: Linux (Debian 12 sid), FreeBSD, ReactOS\
  Любимый DE: MATE\
  Языки програмированния: не изучаю\
- Телефон: Realme 8i(rooted stock)\
+ Телефон: Realme 8i(rooted stock)
 
 # хаб для соцсетей денчика 
 Telegram: <https://t.me/den4iklovelinux>\
@@ -15,6 +15,6 @@ Telegram: <https://t.me/den4iklovelinux>\
 ТТ: <https://www.tiktok.com/@denzel8028>\
 Steam: <https://steamcommunity.com/id/denz8028>\
 OpenVK: <https://openvk.su/id10738>\
-Эл почта: denzel8028@hotmail.com\
+>!Эл почта: denzel8028@hotmail.com
 
 ##### Powered by GitHub superpowers!

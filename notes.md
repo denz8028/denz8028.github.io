@@ -1,2 +1,13 @@
-#Заметка 1
+# Заметка 1
+#### Проведения termux-x11 в chroot
+1. Примонтировать в linux deploy /data/data/com.termux/files/usr/tmp в /tmp в chroot.
+2. в Termux открыть х11 сервер на :0
+<code>termux-x11 :0<\code>
+3. прописать <code>export DISPLAY=:0 && xhost +</code>
+4. войти в chroot по ssh
+5. выполнить export <code>DISPLAY=:0</code>
+6. наслаждайтесь своим х11 в лучшем Х-сервере на андроид!
+Конец заметки 1
+
+
 

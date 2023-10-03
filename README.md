@@ -1,6 +1,6 @@
 # denz8028.github.io
 <marquee>linuxoid</marquee>
-Заметки: <https://denz8028.github.io/notes.md>
+Заметки: <https://denz8028.github.io/notes>
 # bio
 
  Страна/регион: Россия, Волгоградская область\

@@ -1,5 +1,6 @@
 # denz8028.github.io
 <marquee>linuxoid</marquee>
+Заметки: <https://denz8028.github.io/notes.md>
 # bio
 
  Страна/регион: Россия, Волгоградская область\
@@ -16,5 +17,6 @@ Telegram: <https://t.me/den4iklovelinux>\
 Steam: <https://steamcommunity.com/id/denz8028>\
 OpenVK: <https://openvk.su/id10738>\
 >!Эл почта: denzel8028@hotmail.com
+
 
 ##### Powered by GitHub superpowers!

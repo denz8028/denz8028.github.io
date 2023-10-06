@@ -3,6 +3,7 @@
 Заметки: <https://denz8028.github.io/notes>
 # bio
 
+ 14 лет, день рождения 25.02.2009\
  Страна/регион: Россия, Волгоградская область\
  Любимые ОС: Linux (Debian 12 sid), FreeBSD, ReactOS\
  Любимый DE: MATE\

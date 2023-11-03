@@ -1,6 +1,7 @@
 # denz8028.github.io
 <marquee>linuxoid</marquee>
 Заметки: <https://denz8028.github.io/notes>
+Тир Лист GSI: <https://denz8028.github.io/tier-8i>
 # bio
 
  14 лет, день рождения 25.02.2009\

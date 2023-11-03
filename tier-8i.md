@@ -1,4 +1,4 @@
-# GSI TIER LIST
+# GSI tier list
 <table>
  <tr>
   <th>Tier</th>
@@ -27,11 +27,12 @@
 </tr>
 <tr>
  <td>E</td>
- <td>--</td>
- <td>not defined</td>
+ <td>MIUI, DSU stock GSI, OneUI 5.1 normal and core, Nothing OS</td>
+ <td>Not booting/reboot at lk</td>
 </tr>
 <tr>
  <td>F</td>
- <td>MIUI, DSU STOCK GSI, OneUI 5.1</td>
- <td>Not booting/reboot at lk</td>
+ <td>HyperOS(maybe mysticGSI issue)</td>
+ <td>Error in DSU Sideloader/TWRP</td>
+</tr>
 </table>

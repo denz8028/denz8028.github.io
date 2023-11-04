@@ -1,16 +1,18 @@
+<style> nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} </style>
+<header>
 <nav>
-    <a href="README">Главная</a>
     <a href="tier-8i">RMX3151 GSI tier</a>
     <a href="notes">Заметки</a>
 </nav>
-
-# denz8028.github.io
+</header>
 <marquee>linuxoid</marquee>
-Заметки: <https://denz8028.github.io/notes>\
-Тир Лист GSI: <https://denz8028.github.io/tier-8i>
 # bio
 
- 14 лет, день рождения 25.02.2009\
+ 14 лет, день рождения <time>25.02.2009</time>\
  Страна/регион: Россия, Волгоградская область\
  Любимые ОС: Linux (Debian 12 sid), FreeBSD, ReactOS\
  Любимый WM: AwesomeWm+picom\
@@ -24,7 +26,7 @@ Telegram: <https://t.me/den4iklovelinux>\
 ТТ: <https://www.tiktok.com/@denzel8028>\
 Steam: <https://steamcommunity.com/id/denz8028>\
 OpenVK: <https://openvk.su/id10738>\
->!Эл почта: denzel8028@hotmail.com
+Эл почта: denzel8028@hotmail.com
 
 
 ##### Powered by GitHub superpowers!

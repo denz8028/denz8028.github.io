@@ -1,6 +1,12 @@
+<nav>
+    <a href="README">Главная</a>
+    <a href="tier-8i">RMX3151 GSI tier</a>
+    <a href="notes">Заметки</a>
+</nav>
+
 # denz8028.github.io
 <marquee>linuxoid</marquee>
-Заметки: <https://denz8028.github.io/notes>
+Заметки: <https://denz8028.github.io/notes>\
 Тир Лист GSI: <https://denz8028.github.io/tier-8i>
 # bio
 

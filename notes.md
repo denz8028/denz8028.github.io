@@ -7,7 +7,8 @@
 4. выполнить <code>export DISPLAY=:0</code>
 5. наслаждайтесь своим х11 в лучшем Х-сервере на андроид!
 Конец заметки 1
-
+# Заметка 2
+игры для twrp можно начать делать [тут](https://www.ibiblio.org/pub/Linux/games/arcade/tetris/!INDEX.short.html)
 
 
 

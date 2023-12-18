@@ -18,6 +18,8 @@
  Любимый WM: AwesomeWm+picom\
  Языки програмированния: не изучаю\
  Телефон: Realme 8i(rooted stock)
+ Наверное стану программистом.\
+ Языки программирования которые учу/буду учить/наверное хочу выучить: Python; Kotlin (android studio); C++
 
 # хаб для соцсетей денчика 
 Telegram: <https://t.me/den4iklovelinux>\

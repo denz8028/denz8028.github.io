@@ -26,6 +26,7 @@ Telegram: <https://t.me/den4iklovelinux>\
 В каналах и большинстве групп более не участвую. Группы вам знать необязательно.\
 ТТ: <https://www.tiktok.com/@denzel8028>\
 Steam: <https://steamcommunity.com/id/denz8028>\
+Личный клан в Стиме:<https://steamcommunity.com/groups/llinuxteam>\
 OpenVK: <https://openvk.su/id10738>\
 Эл почта: denzel8028@hotmail.com
 

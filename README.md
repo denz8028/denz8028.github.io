@@ -1,8 +1,3 @@
-<style> nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-} </style>
 <header>
 <nav>
     <a href="tier-8i">RMX3151 GSI tier</a>
@@ -17,7 +12,7 @@
  Страна/регион: Россия, Волгоградская область\
  Любимые ОС: Linux (Debian 13 sid), FreeBSD, Blackrhino\
  Любимый WM: AwesomeWm+picom\
- Телефон: Realme 8i(rooted stock)
+ Телефон: Realme 8i(AncientOS 7.1)
  Устройства под которые ведётся небольшой девелопинг: s3ve3gds, treltexx (без стилуса), SCPH-77003 (slim no ide), PSP-3004, ещё разработок не намечается.\
  Наверное (не) стану программистом.\
  Языки программирования которые (не) учу/буду учить/наверное хочу выучить: Python; Kotlin (android studio); C++ (Хотя зная себя я выучу ничего)\
@@ -31,5 +26,8 @@ Steam: <https://steamcommunity.com/id/denz8028>\
 OpenVK: <https://openvk.su/id10738>\
 Эл почта: denzel8028@hotmail.com
 
+<footer>
+  А знаете, мне неплохо живется.
+</footer>
 
 ##### Powered by GitHub superpowers!

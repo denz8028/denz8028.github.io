@@ -1,0 +1,117 @@
+ /* The sidebar menu */
+ @font-face {
+     font-family: 'PS3';
+     src: URL('/resources/PS3.ttf') format('truetype');
+ }
+ @font-face {
+     font-family: 'SamsungSans';
+     src: URL('/resources/ssans.ttf') format('truetype');
+ }
+ .sidenav {
+     height: 100%; /* Full-height: remove this if you want "auto" height */
+     width: 80px; /* Set the width of the sidebar */
+     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+     z-index: 1; /* Stay on top */
+     top: 0; /* Stay at the top */
+     left: 0;
+     background-color: #111; /* Black */
+     overflow-x: hidden; /* Disable horizontal scroll */
+     padding-top: 20px;
+ }
+
+ .sidenav ul {
+     align-self: center;
+     display:block;
+     padding-left:0;
+     position: absolute;
+     top: 165px;
+}
+ /* The navigation menu links */
+ .sidenav a {
+     padding: 6px 8px 6px 16px;
+     text-decoration: none;
+     padding-top:20px;
+     padding-bottom:20px;
+     font-size: 45px;
+     color: #818181;
+     display: block;
+     vertical-align: center;
+     font-family: PS3;
+ }
+
+ /* When you mouse over the navigation links, change their color */
+ .sidenav a:hover {
+     color: #f1f1f1;
+ }
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 150px;
+    row-gap:77px;
+}
+ /* Style page content */
+ .main {
+     margin-top: -10px;
+     background:#1b1b1b;
+     position: relative;
+     top: 65px;
+     margin-left: 80px; /* Same as the width of the sidebar */
+     padding: 0px 10px;
+     font-family:SamsungSans;
+     color:#d5d5d5;
+ }
+ .music {
+     margin-top: -40px;
+     background:#1b1b1b;
+     margin-left: 80px; /* Same as the width of the sidebar */
+     padding: 110px 10px 0 10px;
+     font-family:SamsungSans;
+     color:#d5d5d5;
+     height: 50px;
+ }
+ .music p {
+     margin: 0px;
+}
+.music h3 {
+    margin: 0px;
+}
+.music iframe {
+    border:none;
+}
+.lfmframe {
+    border: none;
+    height: 90px;
+    margin-left: 280px;
+    bottom: 55px;
+    position: relative;
+}
+.links {
+     flex-wrap:row-reverse wrap;
+     margin-top: -110px;
+     top:20px;
+     background:#1b1b1b;
+     margin-left: 80px; /* Same as the width of the sidebar */
+     padding: 20px 10px;
+     font-family:SamsungSans;
+     color:#d5d5d5;
+ }
+.links a {
+    color: #89b4fa;
+    text-decoration: none;
+
+}
+.links a::before {
+    content: "t";
+    font-family: PS3;
+}
+.prev a {
+    position:fixed;
+    align-self:end;
+    display: block;
+    bottom: 0px;
+}
+ /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+ @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+ }

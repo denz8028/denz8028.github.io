@@ -7,75 +7,69 @@
      font-family: 'SamsungSans';
      src: URL('resources/ssans.ttf') format('truetype');
  }
+ html {
+     background-image: url("https://www.speedrun.com/static/theme/6wyd60wd/background.jpg?v=9b0dcdc") !important;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position-x: center;
+     background-position-y: bottom;
+}
  .sidenav {
      height: 100%; /* Full-height: remove this if you want "auto" height */
-     width: 80px; /* Set the width of the sidebar */
+     width: 210px; /* Set the width of the sidebar */
      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
      z-index: 1; /* Stay on top */
      top: 0; /* Stay at the top */
      left: 0;
-     background-color: #111; /* Black */
      overflow-x: hidden; /* Disable horizontal scroll */
      padding-top: 20px;
+     user-select: none;
+
  }
+ .sidenav img {
+     width: 210px;
+          position: absolute;
+     bottom: 30px;
+}
 
  .sidenav ul {
-     align-self: center;
      display:block;
      padding-left:0;
      position: absolute;
-     top: 165px;
+     bottom: 60px;
 }
  /* The navigation menu links */
  .sidenav a {
      padding: 6px 8px 6px 16px;
      text-decoration: none;
-     padding-top:20px;
-     padding-bottom:20px;
-     font-size: 45px;
+     padding-top:5px;
+     padding-bottom:5px;
+     font-size: 17px;
      color: #818181;
      display: block;
      vertical-align: center;
-     font-family: PS3;
  }
 
  /* When you mouse over the navigation links, change their color */
  .sidenav a:hover {
      color: #f1f1f1;
  }
-.container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 150px;
-    row-gap:77px;
-}
+
  /* Style page content */
- .main {
-     margin-top: -10px;
-     background:#1b1b1b;
+ #tab1 {
      position: relative;
-     top: 65px;
-     margin-left: 80px; /* Same as the width of the sidebar */
      padding: 0px 10px;
      font-family:SamsungSans;
      color:#d5d5d5;
  }
- .music {
-     margin-top: -40px;
-     background:#1b1b1b;
-     margin-left: 80px; /* Same as the width of the sidebar */
-     padding: 110px 10px 0 10px;
-     font-family:SamsungSans;
-     color:#d5d5d5;
-     height: 50px;
- }
+
  .music p {
      margin: 0px;
 }
 .music h3 {
     margin: 0px;
 }
-.music iframe {
+#tab1 iframe {
     border:none;
 }
 .lfmframe {
@@ -85,22 +79,19 @@
     bottom: 55px;
     position: relative;
 }
-.links {
+#tab2 {
      flex-wrap:row-reverse wrap;
-     margin-top: -110px;
      top:20px;
-     background:#1b1b1b;
-     margin-left: 80px; /* Same as the width of the sidebar */
      padding: 20px 10px;
      font-family:SamsungSans;
      color:#d5d5d5;
  }
-.links a {
+#tab2 a {
     color: #89b4fa;
     text-decoration: none;
 
 }
-.links a::before {
+#tab2 a::before {
     content: "t";
     font-family: PS3;
 }
@@ -114,4 +105,54 @@
  @media screen and (max-height: 450px) {
      .sidenav {padding-top: 15px;}
      .sidenav a {font-size: 18px;}
+ }
+ #draggable-window {
+ top: 150px;
+ left: 500px;
+ position: absolute;
+ z-index: 9;
+ background-color: rgba(76, 88, 68, 255);
+ border: 1px solid;
+ border-color: rgba(136, 145, 128, 255) rgba(40, 46, 34, 255) transparent rgba(136, 145, 128, 255);
+ color: rgba(216, 222, 211, 255)
+ }
+
+ #window-header {
+ color: white;
+ padding: 8px;
+ font-weight: bold;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .tab-container {
+     display: flex;
+ }
+
+ .tab {
+     user-select: none;
+     padding: 5px;
+     cursor: pointer;
+     color: white;
+     border: 1px solid;
+     border-color: rgba(136, 145, 128, 255) rgba(40, 46, 34, 255) transparent rgba(136, 145, 128, 255);
+     transition: background-color 0.3s;
+ }
+ .tab.active {
+     margin-top: -2px;
+     color: rgba(196, 181, 80, 255);
+}
+
+ .tab-content {
+     display: none;
+     border-top: 1px solid rgba(136, 145, 128, 255)
+ }
+ .tab-content.active {
+     display: block;
+ }
+ .close-btn {
+     border: 1px solid;
+     border-color: rgba(136, 145, 128, 255) rgba(40, 46, 34, 255) rgba(40, 46, 34, 255) rgba(136, 145, 128, 255);
+     cursor: pointer;
+     padding: 0 5px;
  }
